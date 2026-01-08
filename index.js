@@ -89,14 +89,14 @@ function factorial(num) {
 }
 
 // Problem 10: PingPong Challenge
-function pingPong() {
+function pingKing() {
   for (let i = 1; i <= 20; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      console.log("PingPong");
+      console.log("PingKing");
     } else if (i % 3 === 0) {
       console.log("Ping");
     } else if (i % 5 === 0) {
-      console.log("Pong");
+      console.log("King");
     } else {
       console.log(i);
     }
